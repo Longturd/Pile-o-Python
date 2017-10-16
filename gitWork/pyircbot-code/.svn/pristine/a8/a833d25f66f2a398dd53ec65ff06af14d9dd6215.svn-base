@@ -1,0 +1,68 @@
+
+---------
+---------
+  INDEX
+---------
+---------
+
+1. Intro.
+2. Como ejecutarlo.
+3. Como trastearlo.
+4. Donaciones o pago en especies.
+5. Contacto.
+
+
+--------
+1. Intro
+--------
+
+Inicialmente, pyircbot constaba de un solo fichero (pyircbot) donde se hallaba
+todo lo necesario para su ejecucion. Desde la segunda revision de subversion,
+esto ya no es mas asi. Asi pues, ahora existen 3 ficheros (y esta sujeto a
+cambio):
+
+ - pyircbot.py: main.
+ - functions.py: funciones.
+ - config.py: opciones de configuracion.
+
+
+------------------
+2. Como ejecutarlo
+------------------
+
+1. Bajate los 3 archivos .py arriba mencionados y ubicalos en un mismo directorio.
+2. Toca la configuracion a tu gusto (config.py).
+3. Crea, si los usaras, los ficheros de url's y quotes.
+4. Ejecutalo con python pyircbot.py (o chmod +x pyircbot.py && ./pyircbot.py).
+
+
+------------------
+3. Como trastearlo
+------------------
+
+Para ello basta con que te bajes una copia de trabajo a un directorio local (de tu
+disco duro) desde el repositorio subversion de SourceForge. Puedes hacer esto
+ejecutando lo siguiente:
+
+  mkdir pyircbot
+  cd pyircbot
+  svn co https://pyircbot.svn.sourceforge.net/svnroot/pyircbot pyircbot
+
+Hecho esto, en el directorio pyircbot que acabamos de crear tendremos los archivos
+disponibles. Si haces cambios interesantes, coméntamelos (ver seccion 5) y consideraré
+el subirlos a la rama principal o hacer una rama separada (aka 'fork').
+
+
+--------------------------------
+4. Donaciones o pago en especies
+--------------------------------
+
+Se aceptan donaciones -casi- de cualquier tipo. En especial, si perteneces al 
+sexo femenino y consideras que estas de buen ver 0:D
+
+-----------
+5. Contacto
+-----------
+
+qat en ya punto com
+
